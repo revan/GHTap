@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/black"
     tools:context="io.revan.ghcontroller.GuitarActivity">
 
     <LinearLayout
@@ -18,54 +19,54 @@
         android:orientation="vertical">
 
         <Button
-            android:text="Button1"
             android:layout_weight="5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/green"
             android:hapticFeedbackEnabled="true"
             android:id="@+id/button1" />
 
         <Button
-            android:text="Button2"
             android:layout_weight="5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/red"
             android:hapticFeedbackEnabled="true"
             android:id="@+id/button2" />
 
         <Button
-            android:text="Button3"
             android:layout_weight="5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/yellow"
             android:hapticFeedbackEnabled="true"
             android:id="@+id/button3" />
 
         <Button
-            android:text="Button4"
             android:layout_weight="5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/blue"
             android:hapticFeedbackEnabled="true"
             android:id="@+id/button4"/>
 
         <Button
-            android:text="Button5"
             android:layout_weight="5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/orange"
             android:hapticFeedbackEnabled="true"
             android:id="@+id/button5" />
     </LinearLayout>
     <Button
-        android:text="Strum1"
+        android:text="  Strum Up "
         android:id="@+id/button_strum1"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:hapticFeedbackEnabled="true"
         android:layout_height="200dp" />
     <Button
-        android:text="Strum2"
+        android:text="Strum Down"
         android:id="@+id/button_strum2"
         android:layout_toRightOf="@id/button_strum1"
         android:layout_alignParentBottom="true"

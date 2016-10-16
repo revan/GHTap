@@ -8,4 +8,6 @@
     <color name="yellow">#FEF200</color>
     <color name="blue">#4D6EF3</color>
     <color name="orange">#FF7E00</color>
+
+    <color name="black">#000</color>
 </resources>
